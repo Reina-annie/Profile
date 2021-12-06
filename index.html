@@ -1,54 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Profile Page</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="header">
-            <h1 class="center">Anastasia Dmitrenko</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 class="header">Profile Page</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>   
+    <main>
+        <section class="hero">
+            <h2 class="section-title">Anastasia Dmitrenko</h2>
+            <h3 class="section-subtitle">Student | Software Engineer Apprentice</h3>
+        </section>
+
+        <section class="about-me">
+            <p class="section-title">I am currently looking for a software enginnering apprenticeship that is based in London. I am completing a tech talent accelerator programme for software engineering that is being run by UK Generation.</p>
+        </section>
+
+        <section class="education">
+            <header class="education__intro">
+                <h2 class="section-title-small">Education</h2>
+            </header>
+            <div class="education__body">
+                <p>A-Levels:
+                    <ul>
+                        <li>Psychology - A*</li>
+                        <li>Biology - B</li>
+                    </ul>
+                </p>
+                <p>I also have 10 GSCE's including Maths and English - grades 6-7</p>
+            </div>
+        </section>
+
+        <section class="project">
+        <header>
+            <h2 class="section-title">Projects</h2>
+        </header><br>
+             <p>Below you will be able to find some of the projects that I have completed.</p><br>
+            <div class="btn-group">
+                <a href="" class="btn btn-primary">Coming Soon</a>
+                <a href="" class="btn btn-primary">Coming Soon</a>
+                <a href="" class="btn btn-primary">Coming Soon</a>
+            </div> 
+        </section>
+
+        <section class="skills-showcase">
+            <header>
+                <h2 class="section-title">Some of my skills</h2><br>
+            </header>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <img src="https://img.icons8.com/color/50/000000/html-5.png" alt="" class="skill__img">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="" class="skill__img">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <img src="/Image/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png" alt="" class="skill__img">
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="btn-group">
+            <a href="" class="btn btn-accent"></a>
         </div>
-          <hr>
-          <br>
-          <h2 class="center">Contact Details</h2>
-          <br>
-            <p>Email:
-                <a href="mailto:anastasia_dmitrenko@yahoo.co.uk" target="_blank"><button>anastasia_dmitrenko@yahoo.co.uk</button></a> Phone number: 
-                <a href="tel:07472992908"><button>000-000-000</button></a>
-            </p>
-          <a href ="https://github.com/Reina-annie/Profile" target="_blank">
-              <button>GitHub</button></a>
-              <br>
-              <p>🌎 London</p>
-              <br>
-              <hr>
-              <br>
-              <div>
-            
-                <p>Currently: completing a Tech Talent Accelerator programme; a 6 week bootcamp for software engineering that helps you develop the necessary skills to get an apprenticeship.</p>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <div>
-                    <p>Education
-                        <ul>
-                            <li>9 GCSEs including English and Maths - 6-7</li>
-                            <li>A level Biology - B</li>
-                            <li>A level Psychology - A*</li>
-                            <li>Btec Sports Science - D*</li>
-                        </ul>
-                    </p>
-                    <br>
-                </div>
-              <div class="container">
-                  <img src="Image\download.jpg" alt="Javascript logo" width=80px height=60px>
-                  <div>HTML</div>
-                  <div>CSS</div>
-                  <div>JavaScript</div>
-              </div>
-    </body>
+
+        <div class="btn-group">
+            <a href="" class="btn btn-primary"></a>
+            <a href="" class="btn btn-primary"></a>
+            <a href="" class="btn btn-primary"></a>
+        </div> 
+
+        <footer>
+            <ul class="footer-nav">
+                <li>
+                    <a href="#">About Me</a>
+                    <a href="#">Education</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer-social">
+                <li>
+                    <a class="social-link" href="https://github.com/Reina-annie/Profile.git" target="_blank">
+                     <img class="social-icon" src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="" aria-label="github">   
+                    </a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </footer>
+
+    </main>
+</body>
 </html>
+
+<!--<img src="Image/02b27479723f34151ff7de711ce1ab75.png" alt="" class="product__img" />-->
