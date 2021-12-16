@@ -12,11 +12,10 @@
     <h1 class="header">Profile Page</h1>
     <nav>
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about__me">About Me</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#proj">Projects</a></li>
+            <li><a href="#skillset">skills</a></li>
         </ul>
     </nav>
     </header>   
@@ -26,35 +25,38 @@
             <h3 class="section-subtitle">Student | Software Engineer Apprentice</h3>
         </section>
 
-        <section class="about-me">
-            <p class="section-title">I am currently looking for a software enginnering apprenticeship that is based in London. I am completing a tech talent accelerator programme for software engineering that is being run by UK Generation.</p>
+        <section class="about-me" id="about__me">
+            <p class="section-title">I am currently looking for a <span class="intro-span"><strong>software enginnering apprenticeship</strong></span> that is based in London. I am completing a tech talent accelerator programme for software engineering that is being run by UK Generation.</p>
         </section>
 
-        <section class="education">
+        <section class="education" id="edu">
             <header class="education__intro">
                 <h2 class="section-title-small">Education</h2>
             </header>
             <div class="education__body">
-                <p>A-Levels:
+                <p><u>A-Levels:</u>
                     <ul>
                         <li>Psychology - A*</li>
                         <li>Biology - B</li>
                     </ul>
                 </p>
-                <p>BTEC:
+                <p><u>BTEC:</u>
                     <ul>
                         <li>Level 3 Sports Science</li>
                     </ul>
+                    <br>
+                    <br>
                 </p>
+                
                 <p>I also have 10 GSCE's including Maths and English - grades 6-7</p>
             </div>
         </section>
 
-        <section class="project">
+        <section class="project" id="proj">
         <header>
             <h2 class="section-title">Projects</h2>
         </header><br>
-             <p>Below you will be able to find some of the projects that I have completed.</p><br>
+             <p class="project__intro">Below you will be able to find some of the projects that I have completed.</p><br>
             <div class="btn-group">
                 <a href="" class="btn btn-primary">Coming Soon</a>
                 <a href="" class="btn btn-primary">Coming Soon</a>
@@ -62,33 +64,30 @@
             </div> 
         </section>
 
-        <section class="skills-showcase">
+        <section class="skills-showcase" id="skillset">
             <header>
-                <h2 class="section-title">Some of my skills</h2><br>
+                <h2 class="section__header">Some of my skills</h2>
             </header>
             <div class="skills">
                 <div class="skill">
-                    <h3>HTML</h3>
+                    <h3 class="skill__title">HTML</h3>
                     <img src="https://img.icons8.com/color/50/000000/html-5.png" alt="" class="skill__img">
-                    <p></p>
-                    <p></p>
+                    <p class="skill__content">HTML Skills</p>
                 </div>
                 <div class="skill">
-                    <h3>CSS</h3>
+                    <h3 class="skill__title">CSS</h3>
                     <img src="https://img.icons8.com/color/48/000000/css3.png" alt="" class="skill__img">
-                    <p></p>
-                    <p></p>
+                    <p class="skill__content">CSS Skills</p>
                 </div>
                 <div class="skill">
-                    <h3>JavaScript</h3>
-                    <img src="/Image/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png" alt="" class="skill__img">
-                    <p></p>
-                    <p></p>
+                    <h3 class="skill__title">JavaScript</h3>
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="" class="skill__img">
+                    <p class="skill__content">JavaScript Skills</p>
                 </div>
             </div>
         </section>
 
-        <div class="btn-group">
+        <!--<div class="btn-group">
             <a href="" class="btn btn-accent"></a>
         </div>
 
@@ -96,10 +95,10 @@
             <a href="" class="btn btn-primary"></a>
             <a href="" class="btn btn-primary"></a>
             <a href="" class="btn btn-primary"></a>
-        </div> 
+        </div> -->
 
         <footer>
-            <ul class="footer-nav">
+            <!--<ul class="footer-nav">
                 <li>
                     <a href="#">About Me</a>
                     <a href="#">Education</a>
@@ -107,20 +106,18 @@
                     <a href="#">Skills</a>
                     <a href="#">Contact</a>
                 </li>
-            </ul>
+            </ul>-->
 
-            <ul class="footer-social">
-                <li>
-                    <a class="social-link" href="https://github.com/Reina-annie/Profile.git" target="_blank">
+            <div class="footer-social">
+                
+                    <a class="social-link" href="https://github.com/Reina-annie?tab=repositories" target="_blank">
                      <img class="social-icon" src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="" aria-label="github">   
                     </a>
-                </li>
-                <li>
-                    <a href=""></a>
-                </li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+                
+                
+                    <a class="social-link" href="https://www.linkedin.com/in/anastasia-dmitrenko-028621226/" target="_blank"><img class="social-icon" src="https://img.icons8.com/color/48/000000/linkedin.png" alt="" aria-label="Linkdin"/></a>
+                
+            </div>
         </footer>
 
     </main>

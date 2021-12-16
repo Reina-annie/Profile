@@ -47,9 +47,23 @@ h3 {
     letter-spacing: 1px;
 }
 
+.section-title{
+    margin: 10px
+}
+
+.section-subtitle{
+    padding: 10px
+}
+
+
 .section-title-small {
     font-size: 2rem;
+    padding-top: 2.5em;
+}
 
+.section__header {
+    margin-bottom: 2em;
+    color: black;
 }
 
 .header {
@@ -117,35 +131,58 @@ nav a:focus {
     padding: 20vh 1em;
 }
 
+.about-me {
+    margin: 30px;
+}
+
+.intro-span{
+    color: black;
+    
+}
+
 .education {
     background: var(--clr-accent);
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
+    margin: 0;
 }
 
 .education__intro {
-    background-color: rgb(167, 163, 167);
+    background-color: rgb(85, 85, 85);
     background-image: url(/Image/download.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    padding: 3em 1em 3em;
+    padding: 2em 2em ;
+    flex: 0 1 40%;
+    
 }
 
 .education__body {
-    padding: 1.5em 1em 3em;
+    padding: 2em 1em;
+    flex: 0 1 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 27rem;
     text-align: left;
 }
 
 .project {
     background: rgb(248, 246, 246);
+    color: black;
+}
+
+.project__intro {
+    color: var(--clr-text)
 }
 
 .skills {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 1200px;
 }
 
 .skill {
@@ -153,8 +190,48 @@ nav a:focus {
     border-radius: 0.25em;
     overflow: hidden;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.1 );
+    flex: 33%;
+    margin-left: 40px;
 }
 
+
 .skill__img {
-    height: 5vh
+    height: 7rem;
+    float: left;
+    margin-left: 15px;
+}
+
+.skill__content{
+    padding: 1.5em;
+    float: right;
+    color: black;
+}
+
+.skill__title{
+    color: var(--clr-primary);
+    font-size: 1.8rem;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(88, 25, 88);
+    padding: 1em 1em;
+    color: white;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social-link {
+    display: inline-flex;
+    padding: 0.1em;
+}
+
+.social-icon {
+    max-width: 30px;
+    display: flex;
 }
