@@ -48,7 +48,7 @@ h3 {
 }
 
 .section-title{
-    margin: 10px
+    margin: 10px;
 }
 
 .section-subtitle{
@@ -128,11 +128,15 @@ nav a:focus {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 20vh 1em;
+    padding: 17vh 1em;
 }
 
 .about-me {
     margin: 30px;
+}
+
+#description {
+    padding: 1.5em 6em
 }
 
 .intro-span{
@@ -234,4 +238,5 @@ footer {
 .social-icon {
     max-width: 30px;
     display: flex;
+    justify-content: space-around;
 }
