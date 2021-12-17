@@ -155,7 +155,7 @@ nav a:focus {
 
 .education__intro {
     background-color: rgb(85, 85, 85);
-    background-image: url(/Image/download.jpg);
+    background-image: url("Image/download.jpg");
     background-size: cover;
     background-blend-mode: multiply;
     padding: 2em 2em ;
