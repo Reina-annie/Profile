@@ -122,7 +122,7 @@ nav a:focus {
 
 .hero {
     background-color: rgb(97, 92, 92);
-    background-image: url(/Image/341675.jpg);
+    background-image: url("Image/city.jpg");
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
